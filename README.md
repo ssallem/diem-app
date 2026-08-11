@@ -16,6 +16,12 @@ Diem is a quiet, numeral-first D-Day / anniversary countdown app for Android.
 - **3 home-widget sizes** (2×1 / 3×2 / 4×2)
 - Per-event reminders (no exact-alarm permission needed) and one-tap **Add to Calendar**
 
+## Why "Diem" (이름의 유래)
+
+The name comes from the Latin phrase *carpe diem* — "seize the day." In Latin, *diem* is the accusative of *dies*, and it means simply "a day." That is what this app does: it counts days — the ones left until something, and the ones passed since. "D-Day" is kept as a subtitle keyword rather than the app name itself, because in English the term points first to the Normandy landings.
+
+> 앱 이름은 라틴어 격언 *carpe diem*("현재를 잡아라")에서 가져왔습니다. 라틴어 *diem*은 *dies*(날)의 대격으로, 뜻은 그대로 '하루'입니다. 이 앱이 하는 일도 결국 하루를 세는 것입니다 — 어떤 날까지 남은 하루, 어떤 날로부터 지난 하루. 'D-Day'는 영어권에서 노르망디 상륙작전을 먼저 연상시키는 말이라, 이름 본체가 아니라 부제 키워드로만 씁니다.
+
 ## Install (테스트 설치 방법)
 1. Go to **[Releases](../../releases)** and download an APK:
    - `diem-x.x.x-release.apk` — production build (clean, no sample data)
