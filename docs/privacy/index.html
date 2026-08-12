@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Diem</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; max-width: 46rem; padding: 1.5rem 1.25rem 4rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px; line-height: 1.7; color: #1b1b1f; background: #fff;
+    word-break: break-word;
+  }
+  h1 { font-size: 1.7rem; line-height: 1.3; margin: .5rem 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2.2rem 0 .5rem; padding-top: .6rem; border-top: 1px solid #e3e3e8; }
+  p, li { margin: .6rem 0; }
+  ul { padding-left: 1.3rem; }
+  a { color: #2757d6; }
+  .lang { display: inline-block; margin-bottom: 1rem; font-size: .95rem; }
+  .meta { font-size: .95rem; color: #5b5b66; margin: 0 0 1.5rem; }
+  .lead {
+    background: #f2f6ff; border: 1px solid #cddafb; border-radius: 10px;
+    padding: 1rem 1.1rem; font-weight: 600; margin: 1.2rem 0 1.5rem;
+  }
+  .fill { background: #ffe9a8; border-radius: 4px; padding: 0 .3em; font-weight: 700; }
+  footer { margin-top: 2.5rem; font-size: .9rem; color: #5b5b66; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8e8ed; background: #16161a; }
+    h2 { border-top-color: #34343c; }
+    a { color: #8fb0ff; }
+    .meta, footer { color: #a0a0ad; }
+    .lead { background: #1d2437; border-color: #2f3d5e; }
+    .fill { background: #6b5300; color: #fff3cf; }
+  }
+</style>
+</head>
+<body>
+
+<a class="lang" href="ko.html">한국어 버전 보기 →</a>
+
+<h1>Privacy Policy — Diem</h1>
+<p class="meta">
+  Effective date: <strong>August 11, 2026</strong><br>
+  Application: Diem (D-Day countdown &amp; widget), package <code>com.vravio.diem</code>, version 1.2.0<br>
+  Provider: <strong>Vravio Inc</strong> (Republic of Korea)<br>
+  Contact: <span class="fill">dev@binah.team</span>
+</p>
+
+<p class="lead">We do not collect your personal information. Diem has no user accounts, no sign-in, and no server. Everything you enter stays on your device.</p>
+
+<h2>1. Information we collect</h2>
+<p>None. Diem does not collect, transmit, sell, or share any personal information. We operate no servers that receive data from the app, and we have no ability to see the contents of your app.</p>
+
+<h2>2. Data stored on your device</h2>
+<p>The app saves what you create so it can show it back to you. This data is written only to the app's private storage on your device (a local SQLite database named <code>dday.db</code> and the app's local settings):</p>
+<ul>
+  <li>Event titles you type</li>
+  <li>Event dates and repeat settings</li>
+  <li>Favorite / pinned markers</li>
+  <li>App preferences such as theme and language</li>
+</ul>
+<p>This data is never uploaded to us or to any third party. Uninstalling the app deletes it.</p>
+
+<h2>3. Android Auto Backup</h2>
+<p>Diem allows Android's standard Auto Backup feature. If you have backup enabled in your device settings, Android may include the app's local data in <strong>your own Google account backup</strong>, so it can be restored when you set up a new device. This backup belongs to you and is controlled by your Google account settings. <strong>Vravio Inc has no access to it.</strong> You can turn it off in your device's <em>Settings → Google → Backup</em>.</p>
+
+<h2>4. Permissions and why they are requested</h2>
+<ul>
+  <li><strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>) — used only to show reminder notifications for the events you created, on your device. Notification content is generated locally and is not sent anywhere. You may decline or revoke this permission at any time; the rest of the app keeps working.</li>
+  <li><strong>Internet / Network state</strong> (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>) — declared because of a bundled advertising library that is <strong>disabled and never initialized</strong> in this release. The app does not send or receive any data over the network.</li>
+  <li><strong>Automatically added by libraries</strong> (<code>WAKE_LOCK</code>, <code>FOREGROUND_SERVICE</code>, <code>DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>) — added to the final build by the Android job-scheduling library that runs reminder notifications. They are used only to deliver scheduled reminders on your device and are unrelated to collecting personal information.</li>
+</ul>
+
+<h2>5. Calendar</h2>
+<p>If you choose to add an event to your calendar, Diem hands the details to your calendar app through the standard Android "add event" screen, where you confirm and save it. Diem requests no calendar permission and cannot read your calendar.</p>
+
+<h2>6. Advertising and tracking</h2>
+<p>This release shows <strong>no advertising</strong>. No advertising SDK is initialized, and the app does not request or use the Android Advertising ID (the <code>AD_ID</code> permission is removed from the app). There is no analytics, no crash-reporting SDK, no cookies, and no tracking of any kind.</p>
+
+<h2>7. Sharing and sale of data</h2>
+<p>We do not share, disclose, or sell data to third parties, because we do not collect any.</p>
+
+<h2>8. Children's privacy</h2>
+<p>Diem is not directed to children under 13 and is not designed for children. We do not knowingly collect personal information from children under 13 — or from anyone else. If you believe a child has provided personal information to us, contact <span class="fill">dev@binah.team</span>.</p>
+
+<h2>9. Your choices and how to delete your data</h2>
+<ul>
+  <li><strong>Delete one item</strong> — remove the event inside the app.</li>
+  <li><strong>Delete everything</strong> — uninstall the app; all local data is removed with it.</li>
+  <li><strong>Delete without uninstalling</strong> — device <em>Settings → Apps → Diem → Storage → Clear data</em>.</li>
+  <li><strong>Backup copies</strong> — managed through your own Google account backup settings.</li>
+</ul>
+<p>Because we hold no data about you, there is nothing for us to look up, export, or erase on your behalf. Requests about the app itself can be sent to <span class="fill">dev@binah.team</span>.</p>
+
+<h2>10. Availability</h2>
+<p>Diem is distributed worldwide, excluding the European Economic Area, the United Kingdom, and Switzerland.</p>
+
+<h2>11. Changes to this policy</h2>
+<p>If this policy changes, we will publish the updated version at this address and update the effective date at the top. Material changes — for example, if a future version introduces advertising — will be described in this policy and, where required, reflected in the Google Play Data safety section before that version is released.</p>
+
+<h2>12. Contact</h2>
+<p>Vravio Inc — <span class="fill">dev@binah.team</span></p>
+
+<footer>Last updated: August 11, 2026 · © Vravio Inc</footer>
+
+</body>
+</html>
