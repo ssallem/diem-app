@@ -1,0 +1,15 @@
+{
+  "nativeListEnabled": true,
+  "bannerDetailEnabled": true,
+  "interstitialEnabled": true,
+  "rewardedEnabled": true,
+  "nativeFirst": 4,
+  "nativeEvery": 8,
+  "nativeMin": 4,
+  "interstitialMinGapSec": 180,
+  "interstitialDailyCap": 5,
+  "rewardedDailyCap": 10,
+  "freeCredits": 3,
+  "rewardCredits": 3,
+  "aiMessageEnabled": true
+}
